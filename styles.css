@@ -1,0 +1,196 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 30px 0;
+}
+
+header img {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+<!--firstpage--->
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+nav ul li i {
+    color: #4CAF50;
+    margin-right: 8px;
+}
+
+
+
+p {
+    margin-top: 10px;
+        line-height: 1.6
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4caf50;
+    color: white;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Page Sections */
+section {
+    padding: 20px;
+
+}
+ 
+/* Social Media Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a .fab, 
+.social-icons a .fas {
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+/* Instagram */
+.fa-instagram {
+    color: #cc6d79;
+}
+
+/* Email */
+.fa-envelope {
+    color: #0b0b0a;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    color: #2559c0;
+}
+
+/* Snapchat */
+.fa-snapchat {
+    color: #FFFC00;
+}
+
+/* Skills Section Styling */
+h2 {
+    color: #4CAF50;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #f3f3f3;
+    border-left: 5px solid #4CAF50;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.tools-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tool-item {
+    background-color: #f0f0f0;
+    padding: 8px 0;
+    text-align: center;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Position of Responsibility Section */
+.responsibility-card {
+    background-color: #f9f9f9;
+    border-left: 5px solid #4CAF50;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.responsibility-card h3 {
+    color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+.responsibility-card p {
+    margin: 5px 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+
